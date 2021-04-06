@@ -22,6 +22,7 @@ To enable the xref:getting-started:export[Export HTTP endpoint] you will also ne
 [source,conf]
 ----
 dbms.unmanaged_extension_classes=n10s.endpoint=/rdf
+dbms.security.procedures.allowlist=n10s.*
 ----
 
 
